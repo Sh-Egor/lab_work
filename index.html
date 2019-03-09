@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- link:cs -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!--Для корректного отображения на мобильных или маленьких экранах-->
+    <!--Или перерасчёт из виртуальных пикселей в реальные-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regexp tester</title>
+</head>
+<body>
+    <div class="container">
+            <h1>Regexp tester</h1>
+            <!-- h3{Type regexp here:}+textarea -->
+            <h3>Type regexp here:</h3>
+            <textarea id="regexp" class="regexp-input" placeholder="Write your regular expression here"></textarea>
+            <!-- h3{Samples:}+.samples>.sample*5>input[placeholder="Write sample here"]+.answer.no-match{No match} -->
+            <h3>Samples:</h3>
+            <!-- area - многострочная, input - однострочный ввод -->
+            <div oninput = "matchChange(event.target)" class="samples">
+                <div class="sample">
+                    <!-- placeholder - серая вспомогательная надпись -->
+                    <input type="text" class="regexp-input" placeholder="Write sample here">
+                    <div class="answer no-match">No match</div>
+                </div>
+                <div class="sample">
+                    <input type="text" class="regexp-input" placeholder="Write sample here">
+                    <div class="answer no-match">No match</div>
+                </div>
+                <div class="sample">
+                    <input type="text" class="regexp-input" placeholder="Write sample here">
+                    <div class="answer no-match">No match</div>
+                </div>
+                <div class="sample">
+                    <input type="text" class="regexp-input" placeholder="Write sample here">
+                    <div class="answer no-match">No match</div>
+                </div>
+                <div class="sample">
+                    <input type="text" class="regexp-input" placeholder="Write sample here">
+                    <div class="answer no-match">No match</div>
+                </div>
+            </div>
+    </div>
+    
+</body>
+</html>

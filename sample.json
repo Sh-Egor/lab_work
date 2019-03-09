@@ -1,0 +1,16 @@
+[
+    {
+        "id": "123",
+        "descryption":"Hello",
+        "userId": "2345",
+        "samples":["aaaaabbbbbb","aaaaaab","ab","aaaaaaaaaa"],
+        "rightAnswer": "a+b*"
+    },
+    {
+        "id": "234",
+        "descryption":"World!",
+        "userId": "5678",
+        "samples":["aaaaabbbbbb","aaaaaab","ab","aaaaaaaaaa"],
+        "rightAnswer": "a+b*" 
+    }
+]
